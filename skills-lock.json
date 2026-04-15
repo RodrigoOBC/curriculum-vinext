@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "napkin": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "computedHash": "774d8b80d2f5440cdf8e2668520563ce7df3e3ca2d0db52190e1931ab4c6d778"
+    }
+  }
+}
