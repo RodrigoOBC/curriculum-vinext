@@ -1,0 +1,5 @@
+export { ResumeIcon } from "./resume-icon"
+export { AbautIcon } from "./abaut-icon"
+export { PortifolioIcon } from "./portifolio-icon"
+export { BlogIcon } from "./blog-icon"
+export { ContactIcon } from "./contact-icon"

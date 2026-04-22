@@ -1,0 +1,10 @@
+import { PortfolioPage } from "@/components/portfolio-page"
+import { getPortfolioContent } from "@/lib/portfolio-content"
+
+export default async function Home() {
+  const content = await getPortfolioContent()
+
+  return (
+    <PortfolioPage content={content} />
+  )
+}
