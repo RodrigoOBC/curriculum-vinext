@@ -65,7 +65,7 @@ export const portfolioContent: PortfolioContent = {
       { label: "Contato", href: "#contact" },
     ],
     hero: {
-      eyebrow: "Portfólio Bilíngue",
+      eyebrow: "QA Lead - Playwright - Cypress - API Testing",
       title: "Olá, sou Rodrigo Cabral",
       accent: "especialista em Testes Automatizados",
       description:

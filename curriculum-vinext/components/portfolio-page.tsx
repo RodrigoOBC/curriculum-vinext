@@ -224,9 +224,24 @@ export function PortfolioPage({ content }: PortfolioPageProps) {
             <div className="flex flex-wrap gap-2">
               {[
                 "Playwright",
-                "API Testing",
+                "Cypress",
                 "CI/CD",
-                "Quality Strategy",
+                "API Testing",
+                "Perfomance Testing",
+              ].map((tag) => (
+                <Badge key={tag} variant="outline" className="rounded-full px-3 py-1">
+                  {tag}
+                </Badge>
+              ))}
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+              {[
+                "QA Lead",
+                "Gerenciamento de Pessoas",
+                "Liderança Técnica",
+                "Estratégia de Testes",
+                "Automação de Testes",
               ].map((tag) => (
                 <Badge key={tag} variant="outline" className="rounded-full px-3 py-1">
                   {tag}
@@ -234,6 +249,8 @@ export function PortfolioPage({ content }: PortfolioPageProps) {
               ))}
             </div>
           </div>
+
+          
 
           <Card className="border-border/70 bg-card/95 shadow-sm">
             <CardContent className="space-y-6 p-6">
