@@ -9,11 +9,11 @@
 import "dotenv/config"
 import { MongoClient } from "mongodb"
 import type {
-  ExperienceDocument,
-  EducationDocument,
-  ProjectDocument,
   ArticleDocument,
-} from "../lib/db-types"
+  EducationDocument,
+  ExperienceDocument,
+  ProjectDocument,
+} from "../lib/portfolio-types"
 
 const uri = process.env.MONGO_URI!
 const dbName = process.env.MONGO_DB_NAME!

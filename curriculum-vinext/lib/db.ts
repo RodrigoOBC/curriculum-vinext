@@ -1,5 +1,7 @@
 import { MongoClient } from "mongodb"
 
+import "server-only"
+
 const uri = process.env.MONGO_URI!
 const dbName = process.env.MONGO_DB_NAME!
 

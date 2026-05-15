@@ -13,7 +13,7 @@ import { RepositoryGithubCard } from "@/components/repository-github-card"
 import { Timeline } from "@/components/timeline"
 import { buttonVariants } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
-import type { Locale, PortfolioContent } from "@/lib/portfolio-content"
+import type { Locale, PortfolioContent } from "@/lib/portfolio-types"
 
 type PortfolioPageProps = {
   content: PortfolioContent

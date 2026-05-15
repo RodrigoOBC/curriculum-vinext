@@ -1,14 +1,16 @@
+import "server-only"
+
 import { getDb } from "@/lib/db"
 import type {
-  Locale,
+  ArticleCardItem,
   ExperienceDocument,
   EducationDocument,
+  Locale,
+  RepositoryGithubCardItem,
   ProjectDocument,
   ArticleDocument,
-} from "@/lib/db-types"
-import type { ArticleCardItem } from "@/components/article-cards"
-import type { RepositoryGithubCardItem } from "@/components/repository-github-card"
-import type { TimelineItem } from "@/components/timeline"
+  TimelineItem,
+} from "@/lib/portfolio-types"
 
 // ---------------------------------------------------------------------------
 // Types
